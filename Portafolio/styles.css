@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body{
+  font-family: 'Poppins',sans-serif;
+}
+
+.Container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.Header{
+  background-image: linear-gradient(
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+    url(imageHEADER.jpeg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.Menu{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  color: rgba(240, 248, 255, 0.836);
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.Menu .navbar ul li{
+  position: relative;
+  float: left;
+}
+.Menu .navbar ul li a{
+  font-size: 18px;
+  padding: 20px;
+  color: rgba(255, 255, 255, 0.884);
+  display: block;
+  font-weight: 600;
+}
+
+#Menu {
+  display: none;
+}
+
+.Menu-icono{
+  width: 25px;
+}
+
+.Menu label{
+  cursor: pointer;
+  display: none;
+}
